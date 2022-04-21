@@ -38,4 +38,4 @@ msbuild.wrn
 .vs/
 
 # Terraform variables
-#terraform.tfvars
+terraform.tfvars
