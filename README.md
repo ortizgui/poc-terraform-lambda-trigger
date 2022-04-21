@@ -1,7 +1,9 @@
 # poc-terraform-lambda-trigger
 
 
-## Ignore changes into terraform.tfvars
+## AWS Credentials
+
+To ignore any changes to the `terraform.tfvars` use git **assume unchanged** command:
 
 ```commandline
 git update-index --assume-unchanged .\infra\terraform.tfvars
